@@ -1,0 +1,27 @@
+Average time it takes to complete naive1 state transfer for 100MB epochs, a 10 epoch lag, and in the all_healthy case is: 4.33384087225 seconds
+Average time it takes to complete naive1 state transfer for 100MB epochs, a 10 epoch lag, and in the healthy_byzantine case is: 5.261336137150001 seconds
+
+Average time it takes to complete naive2 state transfer for 100MB epochs, a 10 epoch lag, and in the all_healthy case is: 4.84180986565 seconds
+Average time it takes to complete naive2 state transfer for 100MB epochs, a 10 epoch lag, and in the healthy_byzantine case is: 7.319151039349999 seconds
+
+Average time it takes to complete collab state transfer for 100MB epochs, a 10 epoch lag, and in the all_healthy case is: 3.4152222096500005 seconds
+Average time it takes to complete collab state transfer for 100MB epochs, a 10 epoch lag, and in the healthy_byzantine case is: 5.319421708949998 seconds
+
+
+
+Average time it takes to complete naive1 state transfer for 200MB epochs, a 10 epoch lag, and in the all_healthy case is: 8.689831558749997 seconds
+Average time it takes to complete naive1 state transfer for 200MB epochs, a 10 epoch lag, and in the healthy_byzantine case is: 10.952383447799999 seconds
+
+Average time it takes to complete naive2 state transfer for 200MB epochs, a 10 epoch lag, and in the all_healthy case is: 9.94223614425 seconds
+Average time it takes to complete naive2 state transfer for 200MB epochs, a 10 epoch lag, and in the healthy_byzantine case is: 14.795739868100004 seconds
+
+Average time it takes to complete collab state transfer for 200MB epochs, a 10 epoch lag, and in the all_healthy case is: 6.780172267749999 seconds
+Average time it takes to complete collab state transfer for 200MB epochs, a 10 epoch lag, and in the healthy_byzantine case is: 9.064909548181818 seconds
+
+Average time it takes to complete collab state transfer for 200MB epochs, a 10 epoch lag, and in the all_healthy_tc case is: 50.09102200812001 seconds
+Average time it takes to complete collab state transfer for 200MB epochs, a 10 epoch lag, and in the healthy_byzantine_tc case is: 88.99192172405 seconds
+Average time it takes to complete collab state transfer for 200MB epochs, a 10 epoch lag, and in the healthy_far_byzantine_tc case is: 51.4450078372 seconds
+
+Average time it takes to complete collab state transfer for 200MB epochs, a 10 epoch lag, and in the all_healthy_tc_geo case is: 27.1025525067 seconds
+Average time it takes to complete collab state transfer for 200MB epochs, a 10 epoch lag, and in the healthy_byzantine_tc_geo case is: 102.15433386785003 seconds
+Average time it takes to complete collab state transfer for 200MB epochs, a 10 epoch lag, and in the healthy_byzantine_tc_geo case is: 25.787902951600007 seconds	

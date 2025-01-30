@@ -1,0 +1,14 @@
+Average MBs (per replica) sent to faulty replica during the naive1 state transfer in the all_healthy case is: 1000.0MB
+Average MBs (per replica) sent to faulty replica during the naive1 state transfer in the healthy_byzantine case is: 957.5MB
+Average MBs (per replica) consumed during the naive1 state transfer in the all_healthy case is: 1780.0MB
+Average MBs (per replica) consumed during the naive1 state transfer in the healthy_byzantine case is: 1530.5084770331948MB
+
+Average MBs (per replica) sent to faulty replica during the naive2 state transfer in the all_healthy case is: 1010.0MB
+Average MBs (per replica) sent to faulty replica during the naive2 state transfer in the healthy_byzantine case is: 981.6666666666666MB
+Average MBs (per replica) consumed during the naive2 state transfer in the all_healthy case is: 1833.3333333333333MB
+Average MBs (per replica) consumed during the naive2 state transfer in the healthy_byzantine case is: 1586.250002861023MB
+
+Average MBs (per replica) sent to faulty replica during the collab state transfer in the all_healthy case is: 333.3333333333333MB
+Average MBs (per replica) sent to faulty replica during the collab state transfer in the healthy_byzantine case is: 433.3333333333333MB
+Average MBs (per replica) consumed during the collab state transfer in the all_healthy case is: 663.75MB
+Average MBs (per replica) consumed during the collab state transfer in the healthy_byzantine case is: 863.7500123977661MB

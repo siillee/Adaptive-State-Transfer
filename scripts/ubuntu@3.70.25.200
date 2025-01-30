@@ -1,0 +1,57 @@
+#!/bin/bash
+
+INTERFACE="enp39s0"
+
+# # Clear any existing tc rules
+# sudo tc qdisc del dev $INTERFACE root 2>/dev/null
+
+# # Create a root qdisc using HTB
+# # sudo tc qdisc add dev lo root handle 1: htb default 10
+
+# # Create classes for different bandwidth limits
+# # Class 1: 1Gbit/s - HTB
+# # sudo tc class add dev lo parent 1: classid 1:1 htb rate 1gbit ceil 1gbit
+
+# # Class 2: 500Mbit/s - HTB
+# # sudo tc class add dev lo parent 1: classid 1:2 htb rate 100mbit ceil 100mbit
+
+# # TBF
+# sudo tc qdisc add dev $INTERFACE root tbf rate 1gbit burst 1mbit latency 400ms
+
+# # Add filters to direct traffic to specific classes based on destination port
+# # sudo tc filter add dev lo protocol ip parent 1:0 prio 1 u32 match ip dport 10005 0xffff flowid 1:1
+# # sudo tc filter add dev lo protocol ip parent 1:0 prio 1 u32 match ip dport 20005 0xffff flowid 1:1
+
+# # Verify the setup
+# sudo tc -s qdisc show dev $INTERFACE
+# # sudo tc -s class show dev lo
+
+# echo "Traffic control setup complete."
+
+
+
+# Clear existing qdisc rules
+sudo tc qdisc del dev $INTERFACE root 2>/dev/null
+
+# Add root HTB qdisc with total 1 Gbit/s
+sudo tc qdisc add dev $INTERFACE root handle 1: htb default 30
+
+# Add a parent class with 1 Gbit/s max bandwidth
+sudo tc class add dev $INTERFACE parent 1: classid 1:1 htb rate 1gbit ceil 1gbit
+
+# Add two child classes with caps
+# Class 1: Traffic with 1 Gbit/s cap
+sudo tc class add dev $INTERFACE parent 1:1 classid 1:10 htb rate 1mbit ceil 1gbit
+
+# Class 2: Traffic with 500 Mbit/s cap
+sudo tc class add dev $INTERFACE parent 1:1 classid 1:20 htb rate 1mbit ceil 500mbit
+
+# Add filters to classify traffic
+sudo tc filter add dev $INTERFACE protocol ip parent 1: prio 1 u32 match ip dst 172.31.3.144 flowid 1:10
+sudo tc filter add dev $INTERFACE protocol ip parent 1: prio 1 u32 match ip dst 172.31.1.195 flowid 1:20
+
+# Verify the setup
+sudo tc -s qdisc show dev $INTERFACE
+sudo tc -s class show dev $INTERFACE
+
+echo "HTB configuration with capped bandwidth applied to $INTERFACE"

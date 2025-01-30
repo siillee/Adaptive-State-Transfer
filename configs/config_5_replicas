@@ -1,0 +1,6 @@
+10002, 10003, 10004, 10005, 10010, 2:localhost:20001, 3:localhost:30001, 4:localhost:40001, 5:localhost:50001
+20001, 20003, 20004, 20005, 20010, 1:localhost:10002, 3:localhost:30002, 4:localhost:40002, 5:localhost:50002
+30001, 30002, 30004, 30005, 30010, 1:localhost:10003, 2:localhost:20003, 4:localhost:40003, 5:localhost:50003
+40001, 40002, 40003, 40005, 40010, 1:localhost:10004, 2:localhost:20004, 3:localhost:30004, 5:localhost:50004
+50001, 50002, 50003, 50004, 50010, 1:localhost:10005, 2:localhost:20005, 3:localhost:30005, 4:localhost:40005
+localhost:10010, localhost:20010, localhost:30010, localhost:40010, localhost:50010

@@ -1,0 +1,66 @@
+Ack from receiver 1: 1.06235549
+Ack from receiver 1: 0.898376572
+Ack from receiver 1: 0.994271261
+Ack from receiver 1: 0.99990774
+Ack from receiver 1: 0.936701376
+Ack from receiver 1: 0.953643185
+Ack from receiver 1: 0.899415529
+Ack from receiver 1: 0.956274048
+Ack from receiver 1: 0.956663937
+Ack from receiver 1: 0.896122265
+Ack from receiver 1: 0.950728064
+Ack from receiver 1: 0.89312989
+Ack from receiver 1: 0.888321307
+Ack from receiver 1: 0.892407704
+Ack from receiver 1: 0.94331344
+Ack from receiver 1: 0.956589264
+Ack from receiver 1: 0.954178118
+Ack from receiver 1: 0.943483148
+Ack from receiver 1: 0.957245963
+Ack from receiver 1: 0.949154942
+Total time of receiver 1: 20.192880381
+
+
+Ack from receiver 1: 1.168813762
+Ack from receiver 1: 0.907363556
+Ack from receiver 1: 1.029280085
+Ack from receiver 1: 0.961968149
+Ack from receiver 1: 0.91603722
+Ack from receiver 1: 0.89350967
+Ack from receiver 1: 0.898584152
+Ack from receiver 1: 0.907241512
+Ack from receiver 1: 0.895128392
+Ack from receiver 1: 0.939849553
+Ack from receiver 1: 0.898671866
+Ack from receiver 1: 0.895257147
+Ack from receiver 1: 0.960420402
+Ack from receiver 1: 0.956704742
+Ack from receiver 1: 0.902665235
+Ack from receiver 1: 0.954418231
+Ack from receiver 1: 0.932795185
+Ack from receiver 1: 0.890676048
+Ack from receiver 1: 0.899509699
+Ack from receiver 1: 0.893953139
+Total time of receiver 1: 18.756676957
+
+Ack from receiver 1: 1.152809843
+Ack from receiver 1: 0.931462049
+Ack from receiver 1: 1.035241918
+Ack from receiver 1: 0.972609112
+Ack from receiver 1: 0.932671218
+Ack from receiver 1: 0.963621823
+Ack from receiver 1: 0.900382529
+Ack from receiver 1: 0.891702352
+Ack from receiver 1: 0.902459086
+Ack from receiver 1: 0.897896966
+Ack from receiver 1: 0.975724397
+Ack from receiver 1: 0.97260429
+Ack from receiver 1: 0.900597708
+Ack from receiver 1: 0.895707355
+Ack from receiver 1: 0.976561455
+Ack from receiver 1: 0.972736264
+Ack from receiver 1: 0.9010953
+Ack from receiver 1: 0.982894192
+Ack from receiver 1: 0.974856894
+Ack from receiver 1: 0.893739897
+Total time of receiver 1: 19.084525221
